@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="Util.SuitListener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="qa.test.TestCase1"/>
+      <class name="qa.test.TestCase2"></class>
+      <class name="qa.test.TestCase3"></class>
+      <class name="qa.test.TestCase4"></class>
+      <class name="qa.test.TestCase8"></class>
+      <class name="qa.test.TestCase6"></class>
+      <class name="qa.test.TestCase7"></class>
+      <class name="qa.test.TestCase5"></class>
+      <class name="qa.test.TestCase10"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
