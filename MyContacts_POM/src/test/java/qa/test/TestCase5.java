@@ -20,7 +20,7 @@ public class TestCase5 extends baseTest {
 	
 	String ContactName;
 	
-  @Test
+  @Test (groups="regression")
   public void DeleteConMethod() {
 	  
 	  delcon.DeleteContactInfo(ContactName);

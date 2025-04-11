@@ -21,7 +21,7 @@ public class TestCase3 extends baseTest {
 	String email;
 	String pass;
 	
-  @Test
+  @Test (groups="regression")
   public void SignupMethod() {
 	  
 	  signup.signupButton(); 
